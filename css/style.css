@@ -65,3 +65,17 @@ h1 {
 .mac {
     background-color: var(--lightblue);
 }
+
+h2, h3 {
+    margin-bottom: 0.5em;
+}
+
+.companies {
+    padding: 0;
+}
+
+.companies img {
+    display: block;
+    width: 35vw;
+    margin: 4rem auto;
+}
