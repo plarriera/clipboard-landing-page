@@ -101,7 +101,12 @@ footer {
 }
 
 .socmed img {
-    padding: 1rem;    
+    padding: 1rem;  
+    transition: filter 0.25s;  
+}
+
+.socmed img:hover {
+    filter: brightness(0) saturate(100%) invert(63%) sepia(83%) saturate(372%) hue-rotate(121deg) brightness(82%) contrast(92%);
 }
 
 .footer-logo {
@@ -113,4 +118,9 @@ footer {
     margin: 2rem auto;
     text-decoration: none;
     color: var(--darkgray);
+    transition: color 0.25s;
+}
+
+.footer a:hover {
+    color: var(--cyan);
 }
