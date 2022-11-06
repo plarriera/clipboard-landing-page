@@ -79,3 +79,31 @@ h2, h3 {
     width: 35vw;
     margin: 4rem auto;
 }
+
+footer {
+    background-color: #f5f6f8;
+    padding: 4rem 2rem 2rem 2rem;
+}
+
+.footer img, .footer a {
+    display: block;
+}
+
+.socmed a, .socmed img{
+    display: inline;
+}
+
+.socmed img {
+    padding: 1rem;    
+}
+
+.footer-logo {
+    width: 15vw;
+    margin-bottom: 3rem;
+}
+
+.footer a {
+    margin: 2rem auto;
+    text-decoration: none;
+    color: var(--darkgray);
+}
