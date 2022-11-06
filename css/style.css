@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+:root {
+    --cyan: hsl(171, 66%, 44%);
+    --lightblue: hsl(233, 100%, 69%);
+    --darkgray: hsl(210, 10%, 33%);
+    --gray: hsl(201, 11%, 66%);
+}
+
+body {
+    font-family: 'Bai Jamjuree', Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, footer {
+    color: var(--darkgray);
+}
+
+p {
+    color: var(--gray);
+}
